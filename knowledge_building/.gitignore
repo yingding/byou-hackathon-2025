@@ -1,0 +1,8 @@
+*.env
+!.env_vision_example
+!.env_foundrymaas_example
+
+**/data/**
+
+**/__pycache__/**
+
