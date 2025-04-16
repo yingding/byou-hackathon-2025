@@ -41,7 +41,7 @@ class EmbedResult:
     #     return f"EmbedResult(model_version={self.model_version}, vector=[{repr(self.vector[:3])},...], size={self.size}, error={self.error})"
     
     def __repr__(self):
-        return f"EmbedResult(model_version={self.model_version}, vector=[{",".join(list(map(str, self.vector[:3])))},...], size={self.size}, error={self.error})"
+        return f"EmbedResult(model_version={self.model_version}, vector=[{','.join(list(map(str, self.vector[:3])))},...], size={self.size}, error={self.error})"
 
 
 class EmbedBase:
